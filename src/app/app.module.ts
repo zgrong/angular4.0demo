@@ -5,10 +5,17 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TopMenuComponent } from './top-menu/top-menu.component';
+import { FirstMenuComponent } from './first-menu/first-menu.component';
+import { ContentComponent } from './content/content.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopMenuComponent,
+    FirstMenuComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,

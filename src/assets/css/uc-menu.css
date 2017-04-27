@@ -1,0 +1,30 @@
+.top-menu { position: fixed; left: 0; top: 0; width: 100%; height: 50px; background: #1f262d; overflow: hidden; }
+.top-menu .top-menu-left { float: left; overflow: hidden; }
+.top-menu .top-menu-left .logo { width: 150px; height: 100%; margin-left: 40px; padding: 10px 0 0 0; }
+.top-menu .top-menu-left .logo img { display: block; max-width: 80%; margin: 0 auto; }
+.top-menu .top-menu-right { float: right; overflow: hidden; }
+.top-menu .top-menu-right .message { float: left; height: 100%; margin-right: 10px; overflow: hidden; }
+.top-menu .top-menu-right .message a { display: inline-block; width: 50px; height: 100%; color: #fff; padding: 10px 0; text-align: center; }
+.top-menu .top-menu-right .message i { font-size: 25px; }
+.top-menu .top-menu-right .loginout { float: left; margin: 0 40px 0 0; }
+.top-menu .top-menu-right .loginout a { display: inline-block; width: 50px; height: 50px; padding: 10px 0; text-align: center; }
+.top-menu .top-menu-right .loginout a img { width: 65%; border-radius: 50% 50%; box-shadow: 0 1px 8px #f75288; border-radius: 50% 50%; }
+
+ .side-menu { position: fixed; top: 50px; left: 0; height: 100%; float: left; }
+ .side-menu .side-menu-first { float: left; width: 180px; height: 100%; color: white; background: #3b3f51; }
+ .side-menu .side-menu-first .active { background: #626574; }
+ .side-menu .side-menu-first a { display: block; width: 100%; height: 50px; text-align: left; opacity: 0.9; color: white; }
+ .side-menu .side-menu-first a:hover { cursor: pointer; background: #4e5362; }
+ .side-menu .side-menu-first a i { float: left; display: inline-block; width: 50px; height: 50px; text-align: center; line-height: 50px; font-size: 20px; }
+ .side-menu .side-menu-first a span { float: left; display: inline-block; width: 120px; height: 50px; line-height: 50px; font-size: 12px; letter-spacing: 1px; }
+ .wrapper { width: 100%; overflow: hidden; padding: 10px; }
+ .wrapper .page-bar { width: 100%; height: 36px; padding-left: 10px; line-height: 36px; background: #f7f7f7; font-size: 14px; }
+ .wrapper .home-data { height: 150px; padding: 0 10px; }
+ .wrapper .home-data > a { position: relative; display: block; width: 100%; height: 100%; }
+ .wrapper .home-data > a .visual { float: left; margin-top: 20px; width: 80px; height: 80px; opacity: 0.1; font-size: 110px; transform: translateX(-30%); }
+ .wrapper .home-data > a .detail { float: right; margin-top: 40px; padding-right: 20px; overflow: hidden; }
+ .wrapper .home-data > a .detail .number { display: block; font-size: 34px; text-align: right; }
+ .wrapper .home-data > a .detail .desc { display: block; opacity: 0.7; font-size: 16px; letter-spacing: 2px; font-weight: 400; text-align: right; }
+ .wrapper .home-data > a .more { position: absolute; bottom: 0; display: block; width: 100%; height: 30px; }
+
+/*# sourceMappingURL=uc-menu.css.map */
