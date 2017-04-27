@@ -9,7 +9,7 @@ import { menuItem } from '../../shared/menu.service';
 export class ContentComponent implements OnInit {
 
   private hasSecondMenu: boolean;
-  private firstMenuStyle:boolean;
+  private secondMenuStyle:boolean = true;
 
   @Input()
   secondMenu: Array<menuItem>;
@@ -29,6 +29,14 @@ export class ContentComponent implements OnInit {
 
   ngOnInit() {
     this.toggleFirstMenu = true;
+  }
+
+  toggleSeconMenu (event) {
+    if (this.secondMenuStyle) {
+      this.secondMenuStyle = false;
+    } else {
+      this.secondMenuStyle = true;
+    }
   }
 
 }

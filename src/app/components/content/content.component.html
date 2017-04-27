@@ -1,11 +1,14 @@
 <div class="container" [ngStyle]='{"padding-left": toggleFirstMenu? "180px":"50px"}'>
-  <div class="second_menu" *ngIf='hasSecondMenu'>
+  <div class="second_menu" *ngIf='hasSecondMenu' [ngStyle]='{"width":secondMenuStyle? "160px":"50px"}'>
     <a [routerLink]='[menu.url]' *ngFor='let menu of secondMenu'>
       <i [class]="menu.icon"></i>
-      <span>{{menu.name}}</span>
+      <span  *ngIf='secondMenuStyle'>{{menu.name}}</span>
     </a>
+    <div class="second_menu_toggle_btn" (click)='toggleSeconMenu($event)'>
+      <i class="fa fa-angle-double-left" [ngStyle]='{"transform": secondMenuStyle? "rotate(0deg)":"rotate(180deg)"}'></i>
+    </div>
   </div>
-  <div class="row">
-    <router-outlet></router-outlet>
+  <div class="wrapper" [ngStyle]='{"padding-left": hasSecondMenu && secondMenuStyle? "170px":"0"}'>
+      <router-outlet></router-outlet>
   </div>
 </div>

@@ -3,17 +3,37 @@
 	height: 100%;
 	padding: 50px 0 0 180px;
 	.second_menu {
+		position: relative;
 		float: left;
 		width: 160px;
 		height: 100%;
+		padding-top: 60px;
 		border-right: 1px solid #ccc;
 		overflow: hidden;
 		a {
 			display: block;
 			width: 100%;
+			height: 40px;
+			text-align: center;
+			font-size: 14px;
+			line-height: 40px;
+		}
+		.second_menu_toggle_btn {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 30px;
 			height: 30px;
+			font-size: 15px;
 			text-align: center;
 			line-height: 30px;
+			&:hover {
+				background: #ccc;
+			}
 		}
+	}
+	.wrapper {
+		width: 100%;
+		padding: 10px;
 	}
 }
