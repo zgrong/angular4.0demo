@@ -11,7 +11,7 @@
 .top-menu .top-menu-right .loginout a img { width: 65%; border-radius: 50% 50%; box-shadow: 0 1px 8px #f75288; border-radius: 50% 50%; }
 
  .side-menu { position: fixed; top: 50px; left: 0; height: 100%; float: left; }
- .side-menu .side-menu-first { float: left; width: 180px; height: 100%; color: white; background: #3b3f51; }
+ .side-menu .side-menu-first { float: left; width: 100%; height: 100%; color: white; background: #3b3f51; }
  .side-menu .side-menu-first .active { background: #626574; }
  .side-menu .side-menu-first a { display: block; width: 100%; height: 50px; text-align: left; opacity: 0.9; color: white; }
  .side-menu .side-menu-first a:hover { cursor: pointer; background: #4e5362; }

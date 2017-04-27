@@ -5,9 +5,14 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TopMenuComponent } from './top-menu/top-menu.component';
-import { FirstMenuComponent } from './first-menu/first-menu.component';
-import { ContentComponent } from './content/content.component';
+import { TopMenuComponent } from './components/top-menu/top-menu.component';
+import { FirstMenuComponent } from './components/first-menu/first-menu.component';
+import { ContentComponent } from './components/content/content.component';
+import { HomeComponent } from './components/home/home.component';
+import { SysuserComponent } from './components/sysuser/sysuser.component';
+import { RoleComponent } from './components/role/role.component';
+
+import { MenuService } from './shared/menu.service';
 
 
 @NgModule({
@@ -15,7 +20,10 @@ import { ContentComponent } from './content/content.component';
     AppComponent,
     TopMenuComponent,
     FirstMenuComponent,
-    ContentComponent
+    ContentComponent,
+    HomeComponent,
+    SysuserComponent,
+    RoleComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +31,7 @@ import { ContentComponent } from './content/content.component';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [MenuService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

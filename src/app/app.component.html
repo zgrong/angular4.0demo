@@ -1,5 +1,3 @@
 <app-top-menu></app-top-menu>
-<app-first-menu></app-first-menu>
-<div class="">
-  <router-outlet></router-outlet>
-</div>
+<app-first-menu (outPutSecondMenu)='secondMenuHandler($event)' (outPutToggleFirstMenu)='toggleFirstMenuHander($event)'></app-first-menu>
+<app-content [secondMenu]= 'secondMenu' [toggleFirstMenu]='toggleFirstMenu'></app-content>

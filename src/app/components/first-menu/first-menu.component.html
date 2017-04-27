@@ -1,0 +1,11 @@
+<div class="side-menu" id="side-menu" [ngStyle]='{"width": toggleMenu? "180px":"50px"}'>
+  <div class="menu_btn_toggle" (click)='toggle($event)'>
+    <i class="fa fa-navicon" [ngStyle]='{"transform": toggleMenu? "rotate(90deg)":"rotate(0deg)"}'></i>
+  </div>
+  <div class="side-menu-first">
+    <a class="" *ngFor='let menu of firstMenuList' [routerLink]="[menu.url]" (click)='getSecondMenu(menu.children)'>
+      <i [class]="menu.icon"></i>
+      <span *ngIf='toggleMenu'>{{menu.name}}</span>
+    </a>
+  </div>
+</div>
