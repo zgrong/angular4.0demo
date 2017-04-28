@@ -1,0 +1,395 @@
+
+/**
+
+* top-menu
+* dropdown-icon
+* context-menu
+* inner-menu
+* Input icons
+
+**/
+
+
+/***
+top-menu
+***/
+#top-menu {
+    height: 60px;
+    padding: 0;
+    z-index: 1000
+}
+
+#top-menu .logo {
+    padding: 12px 0px 12px 22px;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999
+}
+
+/**origin 200*/
+#top-menu .right.menu .icon.item i.icon {
+    font-size: 25px;
+    z-index: 999
+}
+
+#top-menu .left.menu {
+    margin: 9px 0;
+    position: absolute;
+    left: 75px;
+    top: 0;
+    z-index: 999
+}
+
+#top-menu .left.menu .item {
+    font-size: 16px
+}
+
+#top-menu .left.menu a.item {
+    padding: 3px 5px;
+    margin: 10px 2px;
+    text-align: center;
+    font-size: 14px
+}
+
+#top-menu .left.menu a.item .icon {
+    margin-right: 0
+}
+
+#top-menu .left.menu .item:before {
+    height: 0
+}
+
+/**right menu line 232
+*/
+#top-menu .right.menu {
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+#top-menu .right.menu > .login.button, #top-menu .right.menu > .register.button {
+    margin: 15px 6px
+}
+
+#top-menu .right.menu .item {
+    padding: 18px 15px
+}
+
+#top-menu .right.menu .item:before {
+    height: 0
+}
+
+/**right menu line 249*/
+
+/**start line 263**/
+#top-menu .right.menu .dropdown .menu {
+    width: 100px
+}
+
+#top-menu .right.menu .dropdown .menu:after {
+    right: 55px;
+    left: auto
+}
+
+#top-menu .right.menu .dropdown.icon {
+    padding-left: 50px;
+    margin: 0;
+    font-size: 24px
+}
+
+#top-menu .avatar.image {
+    position: absolute;
+    margin-top: -10px;
+    height: 40px;
+    width: 40px;
+    z-index: 999;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px
+}
+
+#top-menu .avatar img {
+    height: 40px;
+    width: 40px
+}
+
+/***
+dropdown-icon
+***/
+#dropdown-icon:before {
+    content: "\f107"
+}
+
+/***
+context-menu
+***/
+#context-menu {
+    width: 90px !important;
+    height: 100% !important;
+    overflow-y: auto;
+    top: 60px;
+    -webkit-transition: margin-left .8s ease, margin-top .8s ease;
+    -moz-transition: margin-left .8s ease, margin-top .8s ease;
+    transition: margin-left .8s ease, margin-top .8s ease
+}
+
+#context-menu a.item {
+    text-align: center;
+    height: 60px !important
+}
+
+#context-menu i.icon {
+    margin-bottom: 3px !important
+}
+
+#context-avatar {
+    border: 1px solid #FFF;
+    margin-top: 3px;
+    background: #FFF
+}
+
+#context-menu .item:before {
+    height: 0
+}
+
+#context-menu .item.divider {
+    height: 30px !important
+}
+
+#context-menu .item.divider:last-child {
+    height: 60px !important
+}
+
+#context-menu .menu-title {
+    font-size: 12px
+}
+/* Page content start*/
+#context-menu.active + .wrapper {
+    margin-left: 90px;
+}
+
+@media only screen and (max-height: 660px) {
+    #context-menu a.item {
+        width: 100%;
+        height: auto !important;
+        display: inline-block;
+        padding: 8px 0
+    }
+}
+
+
+/***
+inner-menu
+***/
+#inner-menu ~ .page-container-wrapper {
+    margin-left: 190px;
+    padding: 10px 20px 0
+}
+
+#inner-menu {
+    width: 190px;
+    height: 100% !important;
+    overflow-y: hidden;
+    border-right: 1px solid #CCC;
+}
+
+#inner-menu:hover {
+    overflow-y: auto
+}
+
+#inner-menu > .sep {
+    width: 100%;
+    height: 1px;
+    background: #CCC;
+    visibility: visible;
+    margin: 20px 0
+}
+
+#inner-menu header.item {
+    font-size: 18px;
+    padding: 30px 25px 10px
+}
+
+#inner-menu header a {
+    float: right
+}
+
+#inner-menu header a i.icon {
+    margin: 0
+}
+
+#inner-menu header article {
+    margin: 5px 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #666;
+    word-wrap: break-word;
+    word-break: normal
+}
+
+
+#inner-menu > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#inner-menu > .uc-secondary-sidebar-menu > li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+
+#inner-menu > .uc-secondary-sidebar-menu > li > a > .menu-title {
+    margin-left: 3px;
+}
+
+#inner-menu > .uc-secondary-sidebar-menu > li > a {
+    display: block;
+    position: relative;
+    margin: 0;
+    border: 0px;
+    color: rgba(0, 0, 0, .75);
+    text-decoration: none;
+
+    font-size: 14px;
+    padding: 10px 25px;
+    font-weight: 300;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+
+    opacity: .8;
+}
+
+#inner-menu > .uc-secondary-sidebar-menu > li.active > a {
+    background-color: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .95);
+    opacity: 1;
+}
+
+#inner-menu > .uc-secondary-sidebar-menu > li > a > [class^="icon-"] {
+    color: rgba(0, 0, 0, .75);
+    top: 2px;
+    margin-left: 1px;
+    margin-right: 4px;
+}
+
+#inner-menu > .uc-secondary-sidebar-menu .sub-menu {
+    list-style: none;
+    display: none;
+    padding: 0;
+    margin: 8px 0px 8px 0px;
+}
+
+#inner-menu > .uc-secondary-sidebar-menu li > a:hover {
+    opacity: 1;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .08)
+}
+
+#inner-menu > .uc-secondary-sidebar-menu li > a > .arrow:before {
+    /** 增加position: absolute  top: 5px; 解决firefox换行显示问题 **/
+    position: absolute;
+    /*float: right;*/
+    right: 10px;
+    width: 10px;
+    /*text-align: center;*/
+    /*margin-top: -1px;*/
+    /*margin-right: 5px;*/
+    /*margin-left:  5px;*/
+    /*margin-left: 15px;*/
+    display: inline;
+    font-size: 16px;
+    font-family: FontAwesome;
+    height: auto;
+    content: "\f104";
+    font-weight: 300;
+    text-shadow: none;
+}
+
+#inner-menu > .uc-secondary-sidebar-menu li > a > .arrow.open:before {
+    content: "\f107";
+}
+
+#inner-menu > .uc-secondary-sidebar-menu li.active > .sub-menu {
+    display: block;
+}
+
+#inner-menu > .uc-secondary-sidebar-menu .sub-menu li {
+    background: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 1px !important;
+    /* 2nd level sub menu */
+}
+
+#inner-menu > .uc-secondary-sidebar-menu .sub-menu li > a {
+    display: block;
+    position: relative;
+    margin: 0;
+    border: 0px;
+    color: rgba(0, 0, 0, .75);
+    text-decoration: none;
+
+    font-size: 13px;
+    padding: 6px 15px 6px 53px;
+    font-weight: 300;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+
+    opacity: .8;
+}
+
+#inner-menu > .uc-secondary-sidebar-menu .sub-menu li.active > a {
+    background-color: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .95);
+    opacity: 1;
+}
+
+#inner-menu > .hidden-inner-menu {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 10px solid #ccc;
+    border-bottom: 20px solid transparent;
+    /*transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%); 
+    -o-transform: translateY(-50%);*/
+}
+#inner-menu > .show-inner-menu {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    display: none;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 10px solid #ccc;
+    border-bottom: 20px solid transparent;
+    /*transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%); 
+    -o-transform: translateY(-50%);
+    }*/
+}
+@media (min-width: 767px) {
+  #inner-menu > .hidden-inner-menu {
+    display: none;
+  }
+}

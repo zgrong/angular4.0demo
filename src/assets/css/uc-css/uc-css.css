@@ -1,0 +1,233 @@
+/**
+
+* i-icon
+* Text states  
+* Label
+* table
+* help-block
+* 表单校验提示样式
+
+**/
+
+html {
+    font-size: 16px;
+}
+
+body {
+    color: #333333;
+    font-family: "微软雅黑", "Open Sans", sans-serif;
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 13px;
+    direction: ltr;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "微软雅黑", "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+a {
+    color: #2D59A2;
+    text-decoration: none;
+    border-bottom: 1px solid inherit
+}
+
+a.hovered:hover {
+    border-bottom: 1px solid #2D59A2
+}
+
+@-webkit-viewport {
+  width: device-width;
+}
+@-moz-viewport {
+  width: device-width;
+}
+@-ms-viewport {
+  width: device-width;
+}
+@-o-viewport {
+  width: device-width;
+}
+@viewport {
+  width: device-width;
+}
+@-ms-viewport {
+  width: auto !important;
+}
+
+/***
+i.icon
+***/
+i.icon {
+  display: inline-block;
+  opacity: .75;
+  margin: 0 .25em 0 0;
+  width: 1.23em;
+  height: 1em;
+  font-style: normal;
+  line-height: 1;
+  font-weight: 400;
+  text-decoration: inherit;
+  text-align: center;
+  speak: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+/***
+Text states
+***/
+.text-default {
+  color: #c6c6c6;
+}
+
+.text-primary {
+  color: #428bca;
+}
+
+.text-success {
+  color: #45B6AF;
+}
+
+.text-info {
+  color: #89C4F4;
+}
+
+.text-warning {
+  color: #dfba49;
+}
+
+.text-danger {
+  color: #F3565D;
+}
+
+
+/***
+label
+***/
+label {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.control-label {
+  margin-top: 1px;
+}
+.control-label .required {
+  color: #e02222;
+  font-size: 12px;
+  padding-left: 2px;
+}
+
+/***
+table
+***/
+.table.table-bordered thead > tr > th {
+  border-bottom: 0;
+}
+.table tr.heading > th {
+  background-color: #eee !important;
+}
+.table td .img-responsive {
+  width: 100%;
+}
+
+/***
+help-block
+***/
+.help-block {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.help-inline {
+  font-size: 13px;
+  color: #737373;
+  display: inline-block;
+  padding: 5px;
+}
+
+/**=========================================================
+ * add by xhh 2016.07.06
+ * 表单校验输入框错误提示样式 div.error
+ * 表单校验输入框通知提示样式 div.info
+ * 表单校验弹出框效果 .alert
+ * 表单移动时的效果 .table > tbody > tr:hover
+ =========================================================*/
+
+div.error {
+    color: red;
+    padding-top: 7px;
+}
+
+div.info {
+    color: #CDCDCD;
+    padding-top: 7px;
+}
+
+.alert {
+    margin-bottom: 0px;
+    border: 0px solid transparent;
+}
+
+.table > tbody > tr:hover {
+    background-color: #efefef;
+}
+
+.format-height {
+    height: 20px;
+}
+
+.format-height2 {
+    height: 36px;
+}
+
+.break-word {
+    word-wrap: break-word;
+}
+
+/*.has-success .input-icon > i {*/
+/*!*color: #45B6AF;*!*/
+/*color: #3c763d;*/
+/*}*/
+
+/*.has-success .form-control:focus {*/
+/*color: #e5e5e5;*/
+/*}*/
+
+/** 修改过的数据样式 **/
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    /*background-color: rgb(250, 255, 189);*/
+    background-color: rgb(255, 255, 255) !important;
+    background-image: none;
+    color: rgb(0, 0, 0);
+}
+
+/**=========================================================
+ * add by hjc 2016.07.08
+ * Table内容部分显示 .partial-display
+ * 表单校验输入框通知提示样式 div.info
+ * 表单校验弹出框效果 .alert
+ * 表单移动时的效果 .table > tbody > tr:hover
+ =========================================================*/
+
+.partial-display {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /*table标签添加table-layout: fixed;可自由设定显示宽度*/
+}
+
+div.uc_dataTables_info {
+    height: 34px;
+    font-size: 14px;
+    padding-top: 6px;
+}

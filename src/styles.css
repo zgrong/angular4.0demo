@@ -2,6 +2,8 @@
 
 @import 'assets/font/font-awesome/css/font-awesome.min.css';
 @import 'assets/font/simple-line-icons/simple-line-icons.min.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import './assets/css/uc-style.css';
 
 html { font-size: 16px; height: 100%;}
 

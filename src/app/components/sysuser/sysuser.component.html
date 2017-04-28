@@ -1,3 +1,57 @@
 <div id="sysuser_index">
-  <h1>系统管理</h1>
-</div>
+  <div class="page-bar">
+    <ul class="page-breadcrumb">
+      <li><i class="fa fa-home"></i><a href="javascript:;">系统管理</a><i class="fa fa-angle-right"></i></li>
+      <li><a href="javascript:;">用户管理</a></li>
+    </ul>
+  </div>
+  <!-- END PAGE HEADER-->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="selectbox">
+        <ul class="option">
+          <div class="form-inline">
+            <div class="form-group form-group-sm">
+              用户名称： <input class="form-control" name="userName" type="text">
+            </div>
+            <div class="btn-group">
+              <button class="btn blue-madison search">搜 索</button>
+            </div>
+            <div class="btn-group">
+              <button class="btn search">重 置</button>
+            </div>
+          </div>
+        </ul>
+        <div id="ucSelectBoxWrapper" style="padding: 0px;"></div>
+      </div>
+      <div class="buttonbox">
+        <button class="btn btn-sm btn-default">
+            <span class="glyphicon glyphicon-plus font-green-linewell"></span>添加
+        </button>
+        <button class="btn btn-sm btn-default">
+            <span class="glyphicon glyphicon-edit font-blue-linewell"></span>编辑
+        </button>
+        <button class="btn btn-sm btn-default">
+            <span class="glyphicon glyphicon-remove-circle font-red-linewell"></span>删除
+        </button>
+      </div>
+      <table class="table table-bordered table-hover" id="login_user_table" style="table-layout: fixed;">
+        <thead>
+          <tr>
+            <th class="table-checkbox" style="width:26px !important">
+              <input type="checkbox" class="group-checkable" style="text-align: right;" data-set="#login_user_table .checkboxes" />
+            </th>
+            <th>序号</th>
+            <th>用户名称</th>
+            <th>角色</th>
+            <th>所属部门</th>
+            <th>行政区划</th>
+            <th>用户说明</th>
+            <th>创建时间</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>

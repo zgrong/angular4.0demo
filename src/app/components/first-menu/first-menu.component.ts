@@ -4,7 +4,7 @@ import { menuItem, MenuService } from '../../shared/menu.service';
 @Component({
   selector: 'app-first-menu',
   templateUrl: './first-menu.component.html',
-  styleUrls: ['./first-menu.component.less', '../../../assets/css/uc-menu.css']
+  styleUrls: ['./first-menu.component.less']
 })
 export class FirstMenuComponent implements OnInit {
 

@@ -1,0 +1,341 @@
+/**
+
+* top-menu
+* 一级菜单 
+* 二级菜单
+* buttonbox 自定义颜色
+* Blue Colors
+* Green Colors
+* Yellow Colors
+* Purple Colors
+
+**/
+
+/***
+top-menu
+***/
+#top-menu {
+  background-color: #1f262d;
+}
+
+#top-menu .right.menu div.item > a.item {
+  color: #fff;
+}
+
+#top-menu .right.menu div.item:hover {
+  background-color: rgba(51,58,65,.75);
+}
+
+#top-menu .menu.frequently-projects .menu-item-wrapper {
+  background: #f0f3fa;
+}
+
+/***
+一级菜单
+***/
+.ui.inverted.menu {
+  background-color: #3b3f51;
+}
+
+.ui.inverted.icon.menu .item {
+  color: #a5abc4;
+}
+
+.ui.inverted.icon.menu .icon {
+  color: #a5abc4;
+}
+
+.ui.inverted.menu .active.item,.ui.inverted.menu .active.item a {
+  color: #fff!important
+}
+
+.ui.inverted.menu .active.item .icon {
+  color: #fff!important
+}
+
+.ui.inverted.menu .dropdown.item:hover,.ui.inverted.menu .link.item:hover,.ui.inverted.menu a.item:hover,.ui.link.inverted.menu .item:hover {
+  background-color: rgba(255,255,255,.1)
+}
+
+.ui.inverted.menu .item .menu a.item:hover,.ui.inverted.menu .item>a:hover,.ui.inverted.menu a.item:hover {
+  color: #fff
+}
+
+.ui.inverted.menu .item .menu a.item:hover .icon,.ui.inverted.menu .item>a:hover,.ui.inverted.menu a.item:hover .icon {
+  color: #fff
+}
+
+/***
+二级菜单
+***/
+.ui.secondary.menu {
+  background-color: #f0f3fa;
+}
+
+#inner-menu > .uc-secondary-sidebar-menu > li > a {
+  color: #606469;
+}
+
+#inner-menu > .uc-secondary-sidebar-menu > li.active > a {
+  background-color: #27a9e3;
+  color: rgba(255,255,255,.95);
+}
+
+#inner-menu > .uc-secondary-sidebar-menu .sub-menu li > a {
+  color: #a0a3a8;
+}
+
+#inner-menu > .uc-secondary-sidebar-menu .sub-menu li.active > a {
+  color: #1f262d;
+}
+
+/***
+buttonbox 自定义颜色
+***/
+.buttonbox .font-green-linewell {
+    color: #85e078 !important;
+}
+
+.buttonbox .font-blue-linewell {
+    color: #8caac9 !important;
+}
+
+.buttonbox .font-red-linewell {
+    color: #df7373 !important;
+}
+
+/** 自定义颜色 **/
+
+/**********
+Blue Colors
+***********/
+/* Button */
+.blue.btn {
+  color: #FFFFFF;
+  background-color: #3598dc;
+}
+.blue.btn:hover, .blue.btn:focus, .blue.btn:active, .blue.btn.active {
+  color: #FFFFFF;
+  background-color: #2386ca;
+}
+.open .blue.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #2386ca;
+}
+.blue.btn:active, .blue.btn.active {
+  background-image: none;
+  background-color: #1f78b5;
+}
+.blue.btn:active:hover, .blue.btn.active:hover {
+  background-color: #217ebd;
+}
+.open .blue.btn.dropdown-toggle {
+  background-image: none;
+}
+.blue.btn.disabled, .blue.btn.disabled:hover, .blue.btn.disabled:focus, .blue.btn.disabled:active, .blue.btn.disabled.active, .blue.btn[disabled], .blue.btn[disabled]:hover, .blue.btn[disabled]:focus, .blue.btn[disabled]:active, .blue.btn[disabled].active, fieldset[disabled] .blue.btn, fieldset[disabled] .blue.btn:hover, fieldset[disabled] .blue.btn:focus, fieldset[disabled] .blue.btn:active, fieldset[disabled] .blue.btn.active {
+  background-color: #3598dc;
+}
+.blue.btn .badge {
+  color: #3598dc;
+  background-color: #FFFFFF;
+}
+/* Statistic Block */
+.dashboard-stat.blue {
+  background-color: #27a9e3;
+}
+.dashboard-stat.blue.dashboard-stat-light:hover {
+  background-color: #4884b8;
+}
+.dashboard-stat.blue .visual > i {
+  color: #FFFFFF;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.dashboard-stat.blue .details .number {
+  color: #FFFFFF;
+}
+.dashboard-stat.blue .details .desc {
+  color: #FFFFFF;
+  opacity: .7;
+  filter: alpha(opacity=100);
+}
+.dashboard-stat.blue .more {
+  color: #FFFFFF;
+  background-color: #2295c9;
+}
+
+/***********
+Green Colors
+************/
+/* Button */
+.green.btn {
+  color: #FFFFFF;
+  background-color: #26a69a;
+}
+.green.btn:hover, .green.btn:focus, .green.btn:active, .green.btn.active {
+  color: #FFFFFF;
+  background-color: #1f897f;
+}
+.open .green.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #1f897f;
+}
+.green.btn:active, .green.btn.active {
+  background-image: none;
+  background-color: #1b746c;
+}
+.green.btn:active:hover, .green.btn.active:hover {
+  background-color: #1c7d74;
+}
+.open .green.btn.dropdown-toggle {
+  background-image: none;
+}
+.green.btn.disabled, .green.btn.disabled:hover, .green.btn.disabled:focus, .green.btn.disabled:active, .green.btn.disabled.active, .green.btn[disabled], .green.btn[disabled]:hover, .green.btn[disabled]:focus, .green.btn[disabled]:active, .green.btn[disabled].active, fieldset[disabled] .green.btn, fieldset[disabled] .green.btn:hover, fieldset[disabled] .green.btn:focus, fieldset[disabled] .green.btn:active, fieldset[disabled] .green.btn.active {
+  background-color: #26a69a;
+}
+.green.btn .badge {
+  color: #26a69a;
+  background-color: #FFFFFF;
+}
+
+.dashboard-stat.green {
+  background-color:#28b779;
+}
+.dashboard-stat.green.dashboard-stat-light:hover {
+  background-color: #3ea7a0;
+}
+.dashboard-stat.green .visual > i {
+  color: #FFFFFF;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.dashboard-stat.green .details .number {
+  color: #FFFFFF;
+}
+.dashboard-stat.green .details .desc {
+  color: #FFFFFF;
+  opacity: .7;
+  filter: alpha(opacity=100);
+}
+.dashboard-stat.green .more {
+  color: #FFFFFF;
+  background-color:#17a769;
+}
+
+/***********
+Yellow Colors
+************/
+/* Button */
+.yellow.btn {
+  color: #FFFFFF;
+  background-color: #c49f47;
+}
+.yellow.btn:hover, .yellow.btn:focus, .yellow.btn:active, .yellow.btn.active {
+  color: #FFFFFF;
+  background-color: #af8c38;
+}
+.open .yellow.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #af8c38;
+}
+.yellow.btn:active, .yellow.btn.active {
+  background-image: none;
+  background-color: #9c7c32;
+}
+.yellow.btn:active:hover, .yellow.btn.active:hover {
+  background-color: #a48334;
+}
+.open .yellow.btn.dropdown-toggle {
+  background-image: none;
+}
+.yellow.btn.disabled, .yellow.btn.disabled:hover, .yellow.btn.disabled:focus, .yellow.btn.disabled:active, .yellow.btn.disabled.active, .yellow.btn[disabled], .yellow.btn[disabled]:hover, .yellow.btn[disabled]:focus, .yellow.btn[disabled]:active, .yellow.btn[disabled].active, fieldset[disabled] .yellow.btn, fieldset[disabled] .yellow.btn:hover, fieldset[disabled] .yellow.btn:focus, fieldset[disabled] .yellow.btn:active, fieldset[disabled] .yellow.btn.active {
+  background-color: #c49f47;
+}
+.yellow.btn .badge {
+  color: #c49f47;
+  background-color: #FFFFFF;
+}
+
+/* Statistic Block */
+.dashboard-stat.yellow {
+  background-color: #ffb848;
+}
+.dashboard-stat.yellow.dashboard-stat-light:hover {
+  background-color: #ffb848;
+}
+.dashboard-stat.yellow .visual > i {
+  color: #FFFFFF;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.dashboard-stat.yellow .details .number {
+  color: #FFFFFF;
+}
+.dashboard-stat.yellow .details .desc {
+  color: #FFFFFF;
+  opacity: .7;
+  filter: alpha(opacity=100);
+}
+.dashboard-stat.yellow .more {
+  color: #FFFFFF;
+  background-color: #db9628;
+}
+
+/***********
+Purple Colors
+************/
+/* Button */
+.purple.btn {
+  color: #FFFFFF;
+  background-color: #8e5fa2;
+}
+.purple.btn:hover, .purple.btn:focus, .purple.btn:active, .purple.btn.active {
+  color: #FFFFFF;
+  background-color: #7a518c;
+}
+.open .purple.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #7a518c;
+}
+.purple.btn:active, .purple.btn.active {
+  background-image: none;
+  background-color: #6c487c;
+}
+.purple.btn:active:hover, .purple.btn.active:hover {
+  background-color: #724c82;
+}
+.open .purple.btn.dropdown-toggle {
+  background-image: none;
+}
+.purple.btn.disabled, .purple.btn.disabled:hover, .purple.btn.disabled:focus, .purple.btn.disabled:active, .purple.btn.disabled.active, .purple.btn[disabled], .purple.btn[disabled]:hover, .purple.btn[disabled]:focus, .purple.btn[disabled]:active, .purple.btn[disabled].active, fieldset[disabled] .purple.btn, fieldset[disabled] .purple.btn:hover, fieldset[disabled] .purple.btn:focus, fieldset[disabled] .purple.btn:active, fieldset[disabled] .purple.btn.active {
+  background-color: #8e5fa2;
+}
+.purple.btn .badge {
+  color: #8e5fa2;
+  background-color: #FFFFFF;
+}
+
+/* Statistic Block */
+.dashboard-stat.purple {
+  background-color: #852b99;
+}
+.dashboard-stat.purple.dashboard-stat-light:hover {
+  background-color: #835796;
+}
+.dashboard-stat.purple .visual > i {
+  color: #FFFFFF; 
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.dashboard-stat.purple .details .number {
+  color: #FFFFFF;
+}
+.dashboard-stat.purple .details .desc {
+  color: #FFFFFF;
+  opacity: .7;
+  filter: alpha(opacity=100);
+}
+.dashboard-stat.purple .more {
+  color: #FFFFFF;
+  background-color: #751e88;
+}
